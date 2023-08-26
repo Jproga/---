@@ -24,3 +24,23 @@ li {
     font-size: 24px; /* Размер шрифта в пунктах */
     font-family: Georgia, serif; /* Семейство шрифтов */
 }
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: rgb(43, 163, 43);
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
+h2:hover {
+    animation: color-change 3s infinite;
+}
